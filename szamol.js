@@ -4,7 +4,7 @@ function szamol() {
     
     if (m < 1.2 || m > 2.2 || kg < 30 || kg > 200) {
         document.getElementById("ttiki").innerHTML = "Hibás adatok!";
-        document.getElementById("alkatki").innerHTML = "";
+        document.getElementById("alkatki").innerHTML = "x";
         return;
     }
 
